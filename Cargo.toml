@@ -1,0 +1,15 @@
+[package]
+name = "vyron-ide"
+version = "0.1.0"
+edition = "2021"
+description = "VYRON IDE — a native, graphite-themed code editor foundation"
+license = "MIT"
+
+[dependencies]
+eframe = { version = "0.31", features = ["default_fonts"] }
+egui_extras = { version = "0.31", features = ["syntect"] }
+rfd = "0.15"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+walkdir = "2"
+anyhow = "1"
